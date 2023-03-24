@@ -24,3 +24,7 @@ for i in range(3):
 posicao = 0
 posicao = medias.index(max(medias,key=int),0,3)
 print(f'A maior média foi de {medias[posicao]}. Aluno: {alunos[posicao]}.')
+
+posicao = 0
+posicao = medias.index(min(medias,key=int),0,3)
+print(f'A menor média foi de {medias[posicao]}. Aluno: {alunos[posicao]}.')
